@@ -12,7 +12,7 @@ body {
     font-weight: 900;
 }
 
-.links, .main-text, .main-img, .button, .footer {
+.links, .main-text, .button, .footer, .containers {
     font-size: 18px;
     color: #F9FAF8;
 }
@@ -24,4 +24,27 @@ body {
 
 .containers, .button {
     background-color: #3882F6;
+}
+
+.title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.main-img, .quote {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.container, .main-img, .credit {
+    font-size: 18px;
+}
+
+.subtitle {
+    font-weight: 900;
 }
