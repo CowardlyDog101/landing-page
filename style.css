@@ -94,3 +94,8 @@ ul {
 .main-img {
     height: 100px;
 }
+
+.button {
+    display: inline-block;
+    text-align: center;
+}
