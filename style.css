@@ -2,7 +2,7 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-.header, .main, .footer {
+.hero, .footer {
     background-color: #1F2937;
 }
 
@@ -20,4 +20,8 @@ body {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.containers, .button {
+    background-color: #3882F6;
 }
