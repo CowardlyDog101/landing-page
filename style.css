@@ -2,19 +2,22 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-.header {
-    background-color: #1F2937;
-}
-
-.main {
+.header, .main, .footer {
     background-color: #1F2937;
 }
 
 .main-title {
     font-size: 48px;
-    
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
-.footer {
-    background-color: #1F2937;
+.links, .main-text, .main-img, .button, .footer {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
