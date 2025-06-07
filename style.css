@@ -1,5 +1,12 @@
 body {
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.body {
+  flex: 1;
+  display: flex;
 }
 
 .hero, .footer {
@@ -47,4 +54,43 @@ body {
 
 .subtitle {
     font-weight: 900;
+}
+
+.links {
+    list-style-type: none;
+}
+
+.button {
+  border-radius: 8px;
+  padding: 8px 24px;
+  border: none;
+}
+
+.subbutton {
+  border-radius: 8px;
+  padding: 8px 24px;
+  border:solid;
+  border-color: #E5E7EB;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-img {
+    height: 100px;
 }
