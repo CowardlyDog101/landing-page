@@ -43,11 +43,6 @@ body {
     background-color: #E5E7EB;
 }
 
-.quote-text {
-    font-size: 36px;
-    font-weight: 100;
-}
-
 .container, .credit {
     font-size: 18px;
 }
@@ -143,4 +138,22 @@ ul {
 .info {
   max-width: 200px;
   margin-bottom: 100px;
+}
+
+.quote-text {
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: start;
+    font-size: 36px;
+    font-weight: 100;
+
+}
+
+.credit {
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px; 
+    text-align: end;
+    font-size: 36px;
 }
