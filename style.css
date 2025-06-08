@@ -19,7 +19,7 @@ body {
     font-weight: 900;
 }
 
-.links, .main-text, .button, .footer, .containers {
+.links, .main-text, .button, .footer, .containers, .main-img {
     font-size: 18px;
     color: #F9FAF8;
 }
@@ -39,7 +39,7 @@ body {
     font-weight: 900;
 }
 
-.main-img, .quote {
+.quote {
     background-color: #E5E7EB;
 }
 
@@ -48,7 +48,7 @@ body {
     font-weight: 100;
 }
 
-.container, .main-img, .credit {
+.container, .credit {
     font-size: 18px;
 }
 
@@ -64,6 +64,8 @@ body {
   border-radius: 8px;
   padding: 8px 24px;
   border: none;
+  display: inline-block;
+  text-align: center;
 }
 
 .subbutton {
@@ -77,6 +79,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 8px;
+  padding-bottom: 50px;
 }
 
 ul {
@@ -92,10 +95,21 @@ ul {
 }
 
 .main-img {
-    height: 100px;
+    height: 150px;
+    width: 600px;
+    background-color: #6b6d72;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.button {
-    display: inline-block;
-    text-align: center;
+.hero {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.main-container {
+    padding-bottom: 150px;
+    padding-right: 50px;
 }
