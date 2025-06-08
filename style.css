@@ -113,3 +113,34 @@ ul {
     padding-bottom: 150px;
     padding-right: 50px;
 }
+
+.img {
+   width: 190px;
+  height: 190px;
+  border: solid;
+  border-radius: 25px;
+  border-color: #3882F6;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.container {
+    text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  max-width: 200px;
+  margin-bottom: 100px;
+}
