@@ -141,20 +141,31 @@ ul {
 }
 
 .quote-text {
-    margin-top: 100px;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-top: 150px;
+    margin-right: 325px;
+    margin-left: 325px;
     text-align: start;
     font-size: 36px;
     font-weight: 100;
     margin-bottom: 5px;
-
 }
 
 .credit {
-    margin-bottom: 100px;
-    margin-right: 100px;
-    margin-left: 100px; 
+    margin-bottom: 150px;
+    margin-right: 325px;
+    margin-left: 325px; 
     text-align: end;
     font-size: 36px;
+}
+
+.containers {
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 25px;
 }
